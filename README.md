@@ -29,6 +29,12 @@ chmod +x log_archive
 cp log_archive /usr/local/bin
 ```
 
+> If permission denied, use `sudo`
+
+```bash
+sudo log_archive <log_directory>
+```
+
 ```bash
 log_archive <log_directory>
 ```
