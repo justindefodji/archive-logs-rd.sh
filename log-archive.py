@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import shutil
 import os
 import time
@@ -7,7 +5,7 @@ import sys
 
 
 def archive_folder(source: str):
-    destination = 'data_archive/'
+    destination = '/var/log'
 
     # Create the destination folder if it does not exist
     if not os.path.exists(destination):
